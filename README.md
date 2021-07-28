@@ -11,7 +11,7 @@ Paper accepted at IROS2021, available at: [Improving Object Permanence using Age
 We augmented OPNet with action annotations (AA) generated from the ground-truth scene annotations and object detection results provided in the CATER dataset.  
 The action annotation is a vector of length 300, same as the total number of frames. Each element in the vector will be the target object id, if the target is visible at that frame, or id of the object blocking it if it’s occluded or contained.
 
-We can generate a weight matrix <img src="https://render.githubusercontent.com/render/math?math=A∈R^{NK}"> from the action annotations by: 
+We can generate a weight matrix <img src="https://render.githubusercontent.com/render/math?math=A %20\in R^{NK}"> from the action annotations by: 
 1) initialize a matrix with elements all equals to 1; 
 2) at each frame, set the element corresponds to the object id in action annotation to a multiple of 1;
 3) softmax the matrix to obtain a normalized weight.
