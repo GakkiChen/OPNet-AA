@@ -14,7 +14,7 @@ The action annotation is a vector of length 300, same as the total number of fra
 We can generate a weight matrix <img src="https://render.githubusercontent.com/render/math?math=A %20\in R^{NK}"> from the action annotations by: 
 1) initialize a matrix with elements all equals to 1; 
 2) at each frame, set the element corresponds to the object id in action annotation to a multiple of 1;
-3) softmax the matrix to obtain a normalized weight.
+3) (optional) softmax the matrix to obtain a normalized weight.
 
 Here N is the total frame count and K is the maximal object count. 
 
