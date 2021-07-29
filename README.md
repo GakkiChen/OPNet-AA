@@ -1,4 +1,5 @@
 # OPNet-AA
+![Alt text](./img/opnetaa_output.gif?raw=true "OPNet_AA_structure")
 
 ## Abstract
 An action-aware object tracking model with pre-trained Faster-RCNN for object detection, and a series of LSTMs for 
