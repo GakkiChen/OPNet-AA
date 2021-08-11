@@ -1,5 +1,5 @@
 # OPNet-AA
-An GIF showing the tracking result (yellow for groundtruth and blue for predicted bounding box). 
+An GIF showing the tracking result (blue for groundtruth and yellow for predicted bounding box). 
 
 ![Alt text](./img/opnetaa_output.gif?raw=true "OPNet_AA_structure")
 
